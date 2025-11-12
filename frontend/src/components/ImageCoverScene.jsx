@@ -1,8 +1,8 @@
 import React from 'react';
-import coverSceneImage from '/images/cover-scene.png';
 import { InteractiveHotspot } from './InteractiveHotspot';
 
 export const ImageCoverScene = () => {
+  const imageUrl = process.env.PUBLIC_URL + '/images/cover-scene.png';
   const hotspots = [
     {
       // Top left Miffy (white with blue shirt)
@@ -76,7 +76,7 @@ export const ImageCoverScene = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(${coverSceneImage})`,
+          backgroundImage: `url(${imageUrl})`,
           backgroundSize: 'cover'
         }}
       >
