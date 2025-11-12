@@ -8,23 +8,23 @@ export const ImageCoverScene = () => {
       position: { top: '28%', left: '12%' },
       size: { width: '80px', height: '100px' },
       question: 'Where is Eva from?',
-      answer: 'Purgatory - a place where dreams meet reality! Born on 06/25/2021.',
+      answer: 'Purgatory (and from your dreams)',
       tooltipPosition: 'bottom'
     },
     {
       // Top right Miffy (white)
       position: { top: '15%', right: '8%' },
       size: { width: '90px', height: '110px' },
-      question: 'What does Eva love?',
-      answer: 'Creating beautiful things, exploring new ideas, and bringing joy through design!',
+      question: 'What\'s does Eva\'s jobs?',
+      answer: 'artist for different ysws | under nda | racecar staff/org/artist | clubs support onboarding review staff | scouts staff/org/artist | realityware review staff/artist | hackathon org | I.M.P.A.C.T head of activities',
       tooltipPosition: 'bottom'
     },
     {
       // Bottom left Miffy (blue shirt)
       position: { bottom: '15%', left: '15%' },
       size: { width: '85px', height: '105px' },
-      question: 'What\'s Eva\'s superpower?',
-      answer: 'Turning coffee into code and ideas into reality with a sprinkle of creativity!',
+      question: 'What\'s Eva\'s credits for everything?',
+      answer: 'you',
       tooltipPosition: 'top'
     },
     {
@@ -32,7 +32,7 @@ export const ImageCoverScene = () => {
       position: { bottom: '12%', right: '12%' },
       size: { width: '75px', height: '95px' },
       question: 'What makes Eva happy?',
-      answer: 'Cute designs, good vibes, and making people smile with delightful experiences!',
+      answer: 'MIFFY, coffee, sleep, guitar, photography, fencing, drawing, running, games (nintendo based), pottery, clarinet, bassoon, marian, looking fine, cars/motorcycles, music, you',
       tooltipPosition: 'top'
     },
     {
@@ -40,7 +40,7 @@ export const ImageCoverScene = () => {
       position: { top: '18%', left: '20%' },
       size: { width: '70px', height: '90px' },
       question: 'What\'s Eva\'s favorite quote?',
-      answer: '"Keep it simple, make it cute, and always add a little magic!"',
+      answer: '"if you sleep through life, they can never run after you"',
       tooltipPosition: 'right'
     },
     {
@@ -48,15 +48,15 @@ export const ImageCoverScene = () => {
       position: { top: '52%', right: '15%' },
       size: { width: '75px', height: '95px' },
       question: 'What\'s Eva\'s mission?',
-      answer: 'To spread joy and creativity, one pixel at a time!',
+      answer: 'to eat and sleep my way through life',
       tooltipPosition: 'left'
     },
     {
-      // ID Card center - Eva's photo area
+      // ID Card center - my's photo area
       position: { top: '38%', left: '40%' },
       size: { width: '180px', height: '220px' },
       question: 'Who is Eva?',
-      answer: 'A creative soul who loves turning ideas into beautiful realities. Licensed to travel through the world of imagination!',
+      answer: 'why are you asking (im a spirtual being you poor humans cant even think to understand',
       tooltipPosition: 'bottom'
     },
     {
@@ -99,7 +99,7 @@ export const ImageCoverScene = () => {
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
         <div className="bg-[hsl(var(--card))]/90 backdrop-blur-sm rounded-full px-6 py-3 shadow-lg border border-[hsl(var(--border))]">
           <p className="text-sm text-foreground text-center font-medium" style={{ fontFamily: 'Fredoka, sans-serif' }}>
-            hover over the miffies & coffee cups to learn more about eva! ✨
+            hover over the miffies & coffee cups to learn more about me! :yay:
           </p>
         </div>
       </div>
