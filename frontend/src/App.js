@@ -1,12 +1,12 @@
 import React from 'react';
 import '@/App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { ImageCoverScene } from '@/components/ImageCoverScene';
+import { MiffyScene } from '@/components/MiffyScene';
 
 const Home = () => {
   return (
     <div className="w-full min-h-screen">
-      <ImageCoverScene />
+      <MiffyScene />
     </div>
   );
 };
